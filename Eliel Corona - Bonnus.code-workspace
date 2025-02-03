@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "Eliel Corona - Bonnus",
+			"path": "../../Eliel Corona - Bonnus"
+		},
+		{
+			"name": "Pronósticos",
+			"path": "../../../Documents/Pronósticos"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Desarrollo WEB"
+	}
+}

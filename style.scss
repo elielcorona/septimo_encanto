@@ -1,12 +1,10 @@
 /* Paleta de colores */
-$color-principal: #a2d1b7;
-$color-secundario: #232323;
-$color-acento:  #749766;
-$color-neutro: #999966;
+$color-principal: #ffffff;
+$color-secundario: #1F2421;
+$color-acento:  #216869;
+$color-neutro: #DCE1DE;
+$color-medio: #9CC5A1;
 
 body{
     background-color: $color-principal;
-    header{
-        background-color: $color-acento;
-    }
 }

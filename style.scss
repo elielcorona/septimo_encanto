@@ -45,15 +45,18 @@ body{
     color: $color-acento; /* Cambia el color del texto al pasar el mouse */
 }
 
+footer li,
 footer a, 
 footer svg {
     color: $color-acento;
     fill: $color-acento;
     text-decoration: none;
+    transition: all 0.3s;
 }
 
-footer a:hover {
+footer li:hover {
     color: $color-secundario;
+    transform: scale(1.15);
 }
 
 a{
@@ -62,6 +65,11 @@ a{
 
 .card{
     background-color: $color-neutro;
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
 
 .bi{
@@ -71,4 +79,14 @@ a{
 .bi:hover{
     color: $color-secundario;
 
+}
+
+.precio{
+    text-align: left;
+    align-items: end;
+}
+
+.detalle{
+    color: $color-secundario;
+    
 }

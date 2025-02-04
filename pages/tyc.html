@@ -3,60 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Términos y Condiciones - Séptimo Encanto</title>
+    <title>Séptimo Encanto</title>
+
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-JX0aMfGzFq2e3NlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
     <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
     <!-- Encabezado -->
-    <header class="bg-f6f4f3 text-dark py-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="../index.html"><img class="logo" src="../imagenes/logo_septimoencanto.jpg" alt="Séptimo Encanto" width="150"></a>
-            <nav class="menu">
-                <ul class="d-flex list-unstyled mb-0">
-                    <li class="mx-3"><a href="index.html" class="text-white text-decoration-none hover-effect">INICIO</a></li>
-                    <li class="mx-3"><a href="catalogo.html" class="text-white text-decoration-none hover-effect">CATÁLOGO</a></li>
-                    <li class="mx-3"><a href="servicios.html" class="text-white text-decoration-none hover-effect">SERVICIOS</a></li>
-                    <li class="mx-3"><a href="contactanos.html" class="text-white text-decoration-none hover-effect">CONTACTANOS</a></li>
-                    <li class="mx-3"><a href="nosotros.html" class="text-white text-decoration-none hover-effect">NOSOTROS</a></li>
-                </ul>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg px-5">
+                <!-- Logo -->
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="../imagenes/logos/logo_septimoencanto.jpg" alt="Séptimo Encanto" width="150">
+                </a>
+                
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- Menú de navegación -->
+                <div class="collapse navbar-collapse mx-auto text-center" id="MenuNavegacion">
+                    <ul class="navbar-nav mx-auto font-weight-bold">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="catalogo.html">CATÁLOGO</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link " href="nosotros.html">NOSOTROS</a>
+                        </li>
+                    </ul>
+                    <!-- Botón de agendar cita en PC -->
+                    <div class="ms-auto d-none d-lg-block">
+                        <a href="contactanos.html" class="btn btn-outline-light">Agendar Cita</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
+    
+    <!-- Botón flotante para móviles -->
+    <a href="contactanos.html" class="btn btn-primary btn-floating d-lg-none position-fixed" style="bottom: 20px; right: 20px; z-index: 1000;">
+        Agendar Cita
+    </a>
+    
+    
 
     <!-- Términos y Condiciones -->
     <main class="container py-5 w-100">
         <h2 class="mt-5 text-center">Términos y Condiciones</h2>
         <section class="row mt-4">
             <div class="col-md-12">
-                <h3>Condiciones de Uso</h3>
-                <p>Al utilizar nuestros servicios, aceptas estos términos y condiciones. Nos reservamos el derecho de modificar estos términos sin previo aviso.</p>
-                <h3>Responsabilidad</h3>
-                <p>No nos hacemos responsables de cualquier daño o inconveniente derivado del uso incorrecto de nuestros servicios.</p>
+                <h3>Séptimo Encanto</h3><br>
+                <p>
+                    Última actualización: Enero 2025 <br> 
+                    Bienvenido a Séptimo Encanto. Estos términos y condiciones regulan el uso de nuestra página web y la prestación de nuestros servicios de uñas y pestañas. Al acceder o utilizar nuestros servicios, aceptas cumplir con estos términos. 
+
+                    <br><h4>1. Información General</h4> Séptimo Encanto ofrece servicios de aplicación de uñas y pestañas, así como la venta de productos relacionados. Nos reservamos el derecho de modificar estos términos en cualquier momento sin previo aviso. 
+                    <br>
+                    <br><h4>2. Servicios y Citas</h4>
+                    Las citas se agendan a través de nuestra página web o medios de contacto oficiales. Se requiere puntualidad. En caso de retraso mayor a 15 minutos, la cita puede ser cancelada o reprogramada según disponibilidad. Los servicios deben ser pagados antes o al momento de la aplicación. No ofrecemos reembolsos una vez iniciado el servicio.
+                    <br>
+                    <br><h4>3. Tarjetas de Regalo</h4>
+                    Las tarjetas de regalo de Séptimo Encanto son digitales y solo pueden utilizarse para servicios y productos de la marca. No se utilizan como saldo para reservación de citas. No tienen fecha de vencimiento. No son reembolsables ni intercambiables por efectivo.
+                    <br>
+                    <br><h4>4. Políticas de Cancelación y Reprogramación</h4>
+                    Las cancelaciones deben notificarse con al menos 24 horas de anticipación. Si el cliente no se presenta sin previo aviso, la cita se considerará como utilizada y no habrá reembolso. En caso de reprogramación, está sujeta a disponibilidad.
+                    <br>
+                    <br><h4>5. Productos y Ventas</h4>
+                    Los productos vendidos en nuestra página web son exclusivos de Séptimo Encanto. No se aceptan devoluciones salvo en caso de defectos de fábrica. Los precios están sujetos a cambios sin previo aviso. 
+                    <br>
+                    <br><h4>6. Responsabilidad y Garantías</h4>
+                    Séptimo Encanto garantiza la calidad de sus servicios y productos, pero no se hace responsable por reacciones alérgicas o efectos adversos. Se recomienda informar previamente sobre condiciones médicas o alergias antes de cualquier aplicación.
+                    <br>
+                    <br><h4>7. Uso de la Página Web</h4>
+                    El contenido de la web es propiedad de Séptimo Encanto y no puede ser copiado ni distribuido sin autorización. Nos reservamos el derecho de restringir el acceso a cualquier usuario que incumpla estos términos. 
+                    <br>
+                    <br><h4>8. Protección de Datos</h4>
+                    La información personal de los clientes se maneja conforme a nuestra Política de Privacidad. No compartimos datos con terceros sin consentimiento expreso. 
+                    <br>
+                    <br><h4>9. Contacto</h4>
+                    Para cualquier consulta, puedes contactarnos a través de nuestros medios oficiales. Al utilizar nuestros servicios, aceptas estos términos y condiciones. Te recomendamos revisarlos periódicamente para estar al tanto de cualquier actualización.
+                </p>
             </div>
         </section>
     </main>
 
+ 
     <!-- Footer -->
-    <footer class="bg-f6f4f3 text-dark py-3">
-        <div class="container d-flex flex-column align-items-center">
-            <div class="iconos_redes_sociales mb-3">
-                <a href="https://www.instagram.com/septimo_encanto/" target="_blank"><img src="../iconos/instagram.png" alt="Instagram" width="30px" class="mx-2"></a>
-                <a href="https://www.facebook.com/septimo_encanto" target="_blank"><img src="../iconos/facebook.png" alt="Facebook" width="30px" class="mx-2"></a>
-                <a href="https://wa.me/+5215645820972" target="_blank"><img src="../iconos/whatsapp.png" alt="WhatsApp" width="30px" class="mx-2"></a>
+    <footer class=" py-3 ">
+        <div class="container-fluid text-center">
+            <!-- Iconos de Redes Sociales -->
+            <div class="mb-2">
+                <a href="https://www.instagram.com/septimo_encanto/">
+                    <i class="bi bi-instagram"></i>      
+                </a>
+                <a href="https://www.facebook.com/septimo_encanto">
+                    <i class="bi bi-facebook"></i>         
+                </a>
+                <a href="https://wa.me/+5215645820972">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
             </div>
+    
+            <!-- Menú de Footer -->
             <nav>
-                <ul class="list-unstyled mb-0 d-flex justify-content-center">
-                    <li class="mx-3"><a href="nosotros.html" class="text-white">Sobre Nosotros</a></li>
-                    <li class="mx-3"><a href="aviso_de_privacidad.html" class="text-white">Aviso de Privacidad</a></li>
-                    <li class="mx-3"><a href="tyc.html" class="text-white">Términos y Condiciones</a></li>
-                    
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="mx-auto"><a href="nosotros.html" >Sobre Nosotros</a></li>
+                    <li class="mx-auto"><a href="aviso_de_privacidad.html">Aviso de Privacidad</a></li>
+                    <li class="mx-auto"><a href="tyc.html" >Términos y Condiciones</a></li>
                 </ul>
             </nav>
         </div>
     </footer>
-
+    
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" in
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-Xq6qw/X+9km2BOO5xWQICOUOD8W9NMrPpSTdF+RtK59h1pFIYZ8GVd9E2F/eIJOE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>
+    

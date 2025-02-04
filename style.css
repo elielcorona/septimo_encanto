@@ -1,10 +1,70 @@
+@charset "UTF-8";
 /* Paleta de colores */
 body {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav-item {
-  color: #216869;
+  color: #013927;
+  text-decoration: double;
+}
+
+.logo {
+  mix-blend-mode: multiply;
+}
+
+.btn {
+  background-color: #013927;
+  border-color: #edf0ee;
+  color: #edf0ee;
+  transition: all 0.3s;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgb(219, 219, 219);
+}
+
+.nav-link {
+  transition: all 0.3s;
+}
+
+/* Efecto hover para los enlaces del menú */
+.nav-link:hover {
+  transform: scale(1.15);
+  color: #1F2421;
+}
+
+/* Efecto hover para el botón de "Agendar Cita" */
+.btn:hover {
+  transform: scale(1.15);
+  background-color: #88b18d; /* Cambia el fondo del botón */
+  color: #013927; /* Cambia el color del texto al pasar el mouse */
+}
+
+footer a,
+footer svg {
+  color: #013927;
+  fill: #013927;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #1F2421;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  background-color: #edf0ee;
+}
+
+.bi {
+  font-size: 25px;
+}
+
+.bi:hover {
+  color: #1F2421;
 }
 
 /*# sourceMappingURL=style.css.map */

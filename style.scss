@@ -1,14 +1,74 @@
 /* Paleta de colores */
-$color-principal: #ffffff;
+$color-principal: #f9f9f9;
 $color-secundario: #1F2421;
-$color-acento:  #216869;
-$color-neutro: #DCE1DE;
-$color-medio: #9CC5A1;
+$color-acento:  #013927;
+$color-neutro: #edf0ee;
+$color-medio: #88b18d;
+
 
 body{
     background-color: $color-principal;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-item{
     color: $color-acento;
+    text-decoration: double;
+}
+
+.logo{
+    mix-blend-mode: multiply;
+}
+
+.btn{
+    background-color: $color-acento;
+    border-color: $color-neutro;
+    color: $color-neutro;
+    transition: all 0.3s;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(219, 219, 219);
+}
+
+.nav-link{
+    transition: all 0.3s;
+}
+/* Efecto hover para los enlaces del menú */
+.nav-link:hover {
+    transform: scale(1.15);
+    color: $color-secundario ; 
+}
+
+/* Efecto hover para el botón de "Agendar Cita" */
+.btn:hover {
+    transform: scale(1.15);
+    background-color: $color-medio; /* Cambia el fondo del botón */
+    color: $color-acento; /* Cambia el color del texto al pasar el mouse */
+}
+
+footer a, 
+footer svg {
+    color: $color-acento;
+    fill: $color-acento;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: $color-secundario;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    background-color: $color-neutro;
+}
+
+.bi{
+    font-size: 25px;
+}
+
+.bi:hover{
+    color: $color-secundario;
+
 }

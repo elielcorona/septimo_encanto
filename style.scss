@@ -59,14 +59,12 @@ footer li:hover {
     transform: scale(1.15);
 }
 
-a{
-    text-decoration: none;
-}
-
-.card{
+.card {
     background-color: $color-neutro;
     transition: all 0.3s;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 .card:hover{
     transform: scale(1.05);
@@ -76,17 +74,23 @@ a{
     font-size: 25px;
 }
 
-.bi:hover{
+.bi:hover {
     color: $color-secundario;
-
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
+
 .precio{
-    text-align: left;
-    align-items: end;
+    display: flex; 
+    justify-content: flex-end;
 }
 
 .detalle{
     color: $color-secundario;
     
+}
+a{
+    text-decoration: none;
+    color: $color-secundario;
 }

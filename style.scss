@@ -18,6 +18,11 @@ body{
 
 .logo{
     mix-blend-mode: multiply;
+    transition: all 0.3s;
+}
+
+.logo:hover{
+    transform: scale(1.1);
 }
 
 .btn{
@@ -72,12 +77,13 @@ footer li:hover {
 
 .bi{
     font-size: 25px;
+    transition: all 0.3s;
 }
 
 .bi:hover {
     color: $color-secundario;
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
+    transform: scale(1.15);
+    
 }
 
 
@@ -93,4 +99,13 @@ footer li:hover {
 a{
     text-decoration: none;
     color: $color-secundario;
+}
+
+footer i {
+    transition: transform 0.3s ease-in-out;
+}
+
+footer a i:hover {
+    transform: scale(1.15);
+    color: $color-secundario; 
 }

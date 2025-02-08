@@ -43,9 +43,9 @@ body {
 footer li,
 footer a,
 footer svg {
-  text-decoration: none;
   color: #013927;
   fill: #013927;
+  text-decoration: none;
   transition: all 0.3s;
 }
 
@@ -54,13 +54,10 @@ footer li:hover {
   transform: scale(1.15);
 }
 
-a {
-  text-decoration: none;
-}
-
 .card {
   background-color: #edf0ee;
   transition: all 0.3s;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
@@ -69,19 +66,25 @@ a {
 
 .bi {
   font-size: 25px;
-  text-decoration: none;
 }
 
 .bi:hover {
   color: #1F2421;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .precio {
-  text-align: left;
-  align-items: end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .detalle {
+  color: #1F2421;
+}
+
+a {
+  text-decoration: none;
   color: #1F2421;
 }
 

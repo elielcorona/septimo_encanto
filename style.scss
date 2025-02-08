@@ -34,6 +34,11 @@ body{
     box-shadow: 2px 2px 3px rgb(219, 219, 219);
 }
 
+.btn-floating {
+    right: 10px;
+    transform: translateX(-50%);
+}
+
 .nav-link{
     transition: all 0.3s;
 }
@@ -46,8 +51,8 @@ body{
 /* Efecto hover para el botón de "Agendar Cita" */
 .btn:hover {
     transform: scale(1.15);
-    background-color: $color-medio; /* Cambia el fondo del botón */
-    color: $color-acento; /* Cambia el color del texto al pasar el mouse */
+    background-color: $color-medio; 
+    color: $color-acento; 
 }
 
 footer li,

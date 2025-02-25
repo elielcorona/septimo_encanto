@@ -11,6 +11,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .nav-item{
     color: $color-acento;
     text-decoration: double;
@@ -36,7 +37,7 @@ body{
 
 .btn-floating {
     right: 10px;
-    transform: translateX(-50%);
+    transform: translateX(-10%);
 }
 
 .nav-link{
@@ -51,8 +52,10 @@ body{
 /* Efecto hover para el botón de "Agendar Cita" */
 .btn:hover {
     transform: scale(1.15);
-    background-color: $color-medio; 
-    color: $color-acento; 
+    background-color: $color-acento; 
+    color: $color-medio;
+    transition: background-color 0.3s ease-in-out, 
+    transform 0.3s ease-in-out;
 }
 
 footer li,
@@ -113,6 +116,20 @@ footer i {
 footer a i:hover {
     transform: scale(1.15);
     color: $color-secundario; 
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: $color-principal;
+}
+
+main{
+    margin-top: 60px;
 }
 
 /** Animación de scroll
